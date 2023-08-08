@@ -1,0 +1,18 @@
+state={
+	id=32
+	name="STATE_32"
+	provinces={
+		125 144 212 520 597 664 831 1092 
+	}
+	manpower=8775200
+	buildings_max_level_factor=1.000
+	state_category = metropolis
+	history={
+		add_core_of = JAP
+		1977.1.1 = {
+			owner = TPT
+		}
+		victory_points = { 144 30 }
+	}
+	local_supplies=0.0
+}

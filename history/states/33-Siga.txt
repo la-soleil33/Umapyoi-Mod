@@ -1,0 +1,19 @@
+
+state={
+	id=33
+	name="STATE_33"
+	provinces={
+		19 172 264 300 393 397 424 499 639 680 793 862 877 897 922 1061 1074 1966 
+	}
+	manpower=1405229
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+	history={
+		add_core_of = JAP
+		1977.1.1 = {
+			owner = GGS
+		}
+		victory_points = { 862 5 }
+	}
+}

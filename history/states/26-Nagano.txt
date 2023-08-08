@@ -1,0 +1,18 @@
+state={
+	id=26
+	name="STATE_26"
+	provinces={
+		115 156 174 234 239 248 262 391 392 467 628 892 896 1963 
+	}
+	manpower=2007647
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+	history={
+		add_core_of = JAP
+		1977.1.1 = {
+			owner = GGS
+		}
+		victory_points = { 892 5 }
+	}
+}

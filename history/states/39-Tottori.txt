@@ -1,0 +1,18 @@
+state={
+	id=39
+	name="STATE_39"
+	provinces={
+		134 329 452 555 679 698 779 909 1050 1051 1055 1965 
+	}
+	manpower=539000
+	buildings_max_level_factor=1.000
+	state_category = town
+	history={
+		add_core_of = JAP
+		1977.1.1 = {
+			owner = TPT
+		}
+	victory_points = { 679 3 }
+	}
+	local_supplies=0.0
+}

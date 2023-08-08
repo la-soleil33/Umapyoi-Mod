@@ -1,0 +1,18 @@
+state={
+	id=43
+	name="STATE_43"
+	provinces={
+		10 13 79 121 138 225 276 332 334 358 366 415 448 455 507 563 573 631 636 706 728 764 775 790 915 923 1068 1069 1085 1089 1090 1091 
+	}
+	manpower=2744334
+	buildings_max_level_factor=1.000
+	state_category = city
+	history={
+		add_core_of = JAP
+		1977.1.1 = {
+			owner = TPT
+		}
+		victory_points = { 1085 10 }
+	}
+	local_supplies=0.0
+}

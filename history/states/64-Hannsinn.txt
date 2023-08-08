@@ -1,0 +1,18 @@
+state={
+	id=64
+	name="STATE_64"
+	provinces={
+		835 
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+	history={
+		add_core_of = JAP
+		1977.1.1 = {
+			owner = TPT
+		}
+		victory_points = {835 30 }
+	}
+}

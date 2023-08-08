@@ -1,0 +1,19 @@
+
+state={
+	id=23
+	name="STATE_23"
+	provinces={
+		40 108 277 609 712 802 1018 1022 1028 1961 
+	}
+	manpower=1013800
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+	history={
+		add_core_of = JAP
+		1977.1.1 = {
+			owner = GGS
+		}
+		victory_points = { 802 5 }
+	}
+}

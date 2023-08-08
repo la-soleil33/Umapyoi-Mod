@@ -1,0 +1,23 @@
+
+state={
+	id=31
+	name="STATE_31"
+
+	history={
+		add_core_of = JAP
+		1977.1.1 = {
+			owner = GGS
+		}
+		victory_points = {
+			291 20 
+		}
+	}
+
+	provinces={
+		3 139 162 291 322 371 403 456 493 627 693 744 872 1043 1049 
+	}
+	manpower=2041166
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

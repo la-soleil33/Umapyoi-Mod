@@ -1,0 +1,30 @@
+capital = 62
+oob = "JAP_1936"
+set_research_slots = 2
+set_stability = 1
+set_war_support = 1
+set_convoys = 0
+#set_technology = {}
+set_politics = {
+	ruling_party = neutrality
+	last_election = 1977.1.1
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 0
+	neutrality = 100
+}
+create_country_leader = {
+	name = "マルゼンスキー"
+	desc = "スーパーカー"
+	picture = "マルゼンスキー.dds"
+	expire = "1977.1.1"
+	ideology = moderatism
+	traits = {
+		#
+	}
+}
+

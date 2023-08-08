@@ -1,0 +1,19 @@
+state={
+	id=21
+	name="STATE_21"
+	provinces={
+		15 51 57 61 67 164 171 184 193 242 249 251 258 396 436 438 443 465 504 613 665 682 735 773 804 810 817 819 828 855 985 986 988 991 993 997 1001 1003 1010 1011 1013 1015 1016 
+	}
+	manpower=2171686
+	buildings_max_level_factor=1.000
+	state_category = city
+	history={
+		add_core_of = JAP
+		1977.1.1 = {
+			owner = GGS
+		}
+		victory_points = { 258 7 }
+		victory_points = { 819 20 }
+	}
+	local_supplies=0.0 
+}

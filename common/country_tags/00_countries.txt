@@ -1,0 +1,5 @@
+JAP = "countries/Japan.txt"
+MRZ = "countries/Maruzensky.txt"
+TSB = "countries/ToshoBoy.txt"
+GGS = "countries/Green Grass.txt"
+TPT = "countries/Ten Point.txt"

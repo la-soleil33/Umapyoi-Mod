@@ -1,0 +1,21 @@
+state={
+	id=9
+	name="STATE_9"
+	provinces={
+		23 44 70 89 186 223 246 266 337 341 348 349 367 370 428 440 459 503 551 556 601 612 617 652 674 691 722 795 839 843 847 850 888 924 960 961 962 963 964 965 966 968 970 971 974 1958 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	history={
+		add_core_of = JAP
+		1977.1.1 = {
+			owner = TSB
+		}
+		victory_points = { 370 5 }
+	}
+	manpower=916509
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

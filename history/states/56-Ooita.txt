@@ -1,0 +1,19 @@
+state={
+	id=56
+	name="STATE_56"
+	provinces={
+		17 18 47 58 166 218 271 284 312 321 328 361 378 472 514 599 739 741 853 864 905 925 1106 1112 1122 
+	}
+	manpower=1098383
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = large_town
+	history={
+		add_core_of = JAP
+		1977.1.1 = {
+			owner = TPT
+		}
+		victory_points = { 271 5 }
+	}
+	local_supplies=0.0
+}

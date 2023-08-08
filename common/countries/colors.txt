@@ -1,0 +1,23 @@
+#reload countrycolors
+
+
+JAP = {
+	color = rgb { 255 191 191 }
+	color_ui = rgb { 255 191 191 }
+}
+MRZ = {
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
+}
+TTS = {
+	color = rgb { 230 230 0 }
+	color_ui = rgb { 230 230 0 }
+}
+GGS = {
+	color = rgb { 0 127 14 }
+	color_ui = rgb { 0 127 14 }
+}
+TPT = {
+	color = rgb { 255 102 255 }
+	color_ui = rgb { 255 102 255 }
+}

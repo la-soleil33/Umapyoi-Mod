@@ -2,18 +2,10 @@ state={
 	id=1
 	name="STATE_1"
 	provinces={
-		60 132 306 416 630 890 
+		261 389 652 732 915 960 968 1024 1083 1246 1399 1598 1599 1600 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
 	manpower=3608
 	buildings_max_level_factor=1.000
 	state_category = rural
-	history={
-		add_core_of = JAP
-		1977.1.1 = {
-			owner = TSB
-		}
-	}
 	local_supplies=0.0 
 }

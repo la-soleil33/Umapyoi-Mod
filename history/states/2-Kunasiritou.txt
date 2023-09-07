@@ -2,13 +2,7 @@ state={
 	id=2
 	name="STATE_2"
 	provinces={
-		426 651 812 
-	}
-	history={
-		add_core_of = JAP
-		1977.1.1 = {
-			owner = TSB
-		}
+		59 394 399 707 1294 1602 1605 
 	}
 	manpower=7364
 	buildings_max_level_factor=1.000

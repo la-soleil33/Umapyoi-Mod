@@ -1,0 +1,10 @@
+state={
+	id=158
+	name="STATE_158"
+	provinces={
+		173 194 220 227 331 347 462 662 961 1017 1233 1292 1302 1402 1424 1499 1546 1593 1991 1994 1995 2001 2004 2007 2012 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

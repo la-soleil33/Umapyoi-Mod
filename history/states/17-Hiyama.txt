@@ -1,0 +1,10 @@
+state={
+	id=17
+	name="STATE_17"
+	provinces={
+		19 108 141 147 200 208 478 516 524 525 847 1185 1260 1388 1589 1653 1656 1662 1664 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

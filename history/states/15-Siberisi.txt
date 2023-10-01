@@ -4,7 +4,8 @@ state={
 	provinces={
 		34 130 153 162 274 451 470 476 766 774 803 836 852 873 949 1060 1067 1132 1262 1342 1447 1502 1505 1579 1622 1624 1629 1631 1632 1642 1643 1649 
 	}
-	manpower=0
+	manpower=191364
 	buildings_max_level_factor=1.000
+	state_category=rural
 	local_supplies=0.000
 }

@@ -1,0 +1,16 @@
+state={
+	id=178
+	name="STATE_178"
+	provinces={
+		827 1367 2052 
+	}
+	manpower=9883
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies=0.000
+
+	history = {
+		owner = JAP
+		add_core_of = JAP
+	}
+}

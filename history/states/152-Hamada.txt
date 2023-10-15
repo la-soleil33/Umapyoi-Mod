@@ -1,0 +1,16 @@
+state={
+	id=152
+	name="STATE_152"
+	provinces={
+		30 395 500 594 606 630 703 716 1317 1370 1930 1931 1935 1940 1956 
+	}
+	manpower=121600
+	buildings_max_level_factor=1.000
+	state_category = rural
+	local_supplies=0.000
+
+	history = {
+		owner = JAP
+		add_core_of = JAP
+	}
+}

@@ -1,0 +1,16 @@
+state={
+	id=218
+	name="STATE_218"
+	provinces={
+		931 1568 2129 
+	}
+	manpower=11336
+	buildings_max_level_factor=1.000
+	state_category = small_island
+	local_supplies=0.000
+
+	history = {
+		owner = JAP
+		add_core_of = JAP
+	}
+}

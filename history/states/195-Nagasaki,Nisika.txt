@@ -1,0 +1,16 @@
+state={
+	id=195
+	name="STATE_195"
+	provinces={
+		319 1010 1119 1369 1548 2088 2093 
+	}
+	manpower=487629
+	buildings_max_level_factor=1.000
+	state_category = large_town
+	local_supplies=0.000
+
+	history = {
+		owner = JAP
+		add_core_of = JAP
+	}
+}

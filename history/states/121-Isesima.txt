@@ -1,0 +1,16 @@
+state={
+	id=121
+	name="STATE_121"
+	provinces={
+		747 770 1037 1156 1168 1335 1349 1571 2019 
+	}
+	manpower=232323
+	buildings_max_level_factor=1.000
+	state_category = town
+	local_supplies=0.000
+
+	history = {
+		owner = JAP
+		add_core_of = JAP
+	}
+}

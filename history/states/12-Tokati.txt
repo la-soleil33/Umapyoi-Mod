@@ -7,4 +7,11 @@ state={
 	manpower=326989
 	buildings_max_level_factor=1.000
 	state_category=town
+	history = {
+		owner = JAP
+		add_core_of = JAP
+		victory_points = {
+			74 25
+		}
+	}
 }

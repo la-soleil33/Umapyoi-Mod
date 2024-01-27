@@ -1,0 +1,36 @@
+bookmarks = {
+	bookmark = {
+		name = "1984"
+		desc = "1984_desc"
+		date = 1984.1.1.12
+		picture = "GFX_select_date_1984"
+		default_country = "MRC"
+	
+		MRC = {
+			history = MRC_desc
+			ideology = neutrality
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		KTR = {
+			history = KTR_desc
+			ideology = neutrality
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

@@ -10,8 +10,8 @@ state={
 	local_supplies=0.000
 
 	history = {
-		owner = JAP
-		add_core_of = JAP
+		owner = KTR
+		add_core_of = KTR
 		victory_points = {
 			1125 25
 		}

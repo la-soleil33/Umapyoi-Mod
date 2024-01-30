@@ -1,11 +1,9 @@
-name="test"
-path="mod/test"
-replace_path="history/states"
+version="0.1"
 tags={
 	"Map"
 	"Utilities"
 }
-picture="blank_map_template_5632x2048.jpg"
+name="Umapyoi-Mod"
 supported_version="1.13.*"
 replace_path="common/ai_peace"
 replace_path="common/ai_strategy"

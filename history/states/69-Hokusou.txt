@@ -9,7 +9,7 @@ state={
 	state_category=city
 	local_supplies=0.000
 	history = {
-		owner = MRC
-		add_core_of = MRC
+		owner = RDL
+		add_core_of = RDL
 	}
 }

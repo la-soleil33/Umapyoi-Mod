@@ -1,0 +1,20 @@
+
+on_actions = {
+	
+	on_startup = {
+		effect = {
+			every_country = { 
+				limit = {
+					always = yes
+				}
+				set_variable = { var = uma_condition_factor value = 3 }
+				if = {
+					limit = {
+						check_variable = { uma_condition_factor = 3 }
+					}
+					add_ideas = uma_condition_3
+				}
+			}
+		}
+	}
+}

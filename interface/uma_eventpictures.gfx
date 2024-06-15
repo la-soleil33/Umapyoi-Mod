@@ -1,0 +1,7 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_report_event_uma_headache"
+		texturefile = "gfx/event_pictures/report_event_uma_headache.png"
+	}
+}	

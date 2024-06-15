@@ -1,0 +1,15 @@
+characters = {
+	MRC_MrCB = {
+		name = MrCB
+		portraits = {
+			civilian = {
+				large = GFX_portrait_MrCB
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {}
+			expire = "2000.1.1.1"
+		}
+	}
+}

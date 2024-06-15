@@ -1,0 +1,15 @@
+characters = {
+	RDL_Symboli_Rudolf = {
+		name = Symboli_Rudolf
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Symboli_Rudolf
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {}
+			expire = "2000.1.1.1"
+		}
+	}
+}

@@ -89,15 +89,7 @@ set_popularities = {
 	neutrality = 100
 }
 
-create_country_leader = {
-	name = "Katsuragi_Ace"
-	desc = ""
-	picture = "Katsuragi_Ace.dds"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
+recruit_character = KTR_Katsuragi_Ace
 
 1984.1.1 = {
 	set_politics = {

@@ -89,15 +89,7 @@ set_popularities = {
 	neutrality = 100
 }
 
-create_country_leader = {
-	name = "Mr.CB"
-	desc = ""
-	picture = "MrCB.dds"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
+recruit_character = MRC_MrCB
 
 1984.1.1 = {
 	set_politics = {

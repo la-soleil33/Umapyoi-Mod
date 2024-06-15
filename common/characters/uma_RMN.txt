@@ -1,0 +1,15 @@
+characters = {
+	RMN_Mejiro_Ramonu = {
+		name = Mejiro_Ramonu
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Mejiro_Ramonu
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {}
+			expire = "2000.1.1.1"
+		}
+	}
+}

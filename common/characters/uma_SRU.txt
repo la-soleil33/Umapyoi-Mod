@@ -1,0 +1,15 @@
+characters = {
+	SRU_Sirius_Symboli = {
+		name = Sirius_Symboli
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Sirius_Symboli
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {}
+			expire = "2000.1.1.1"
+		}
+	}
+}

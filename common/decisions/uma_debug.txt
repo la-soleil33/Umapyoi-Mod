@@ -1,0 +1,35 @@
+uma_debug_decision = {
+	uma_debug_1 = {
+		icon = GFX_decision_generic_umamusume
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			country_event = {
+				id = uma_generic.2
+			}
+		}
+	}
+	uma_debug_2 = {
+		icon = GFX_decision_generic_umamusume
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			uma_condition_great_condition = yes
+		}
+	}
+	
+}

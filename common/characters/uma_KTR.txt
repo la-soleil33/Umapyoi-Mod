@@ -1,0 +1,15 @@
+characters = {
+	KTR_Katsuragi_Ace = {
+		name = Katsuragi_Ace
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Katsuragi_Ace
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {}
+			expire = "2000.1.1.1"
+		}
+	}
+}

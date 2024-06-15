@@ -1,0 +1,35 @@
+spriteTypes = {
+    
+    SpriteType = {
+        name = "GFX_uma_condition"
+        texturefile = "gfx/interface/GUI/condition.png"
+        noOfFrames = 5
+    }
+    SpriteType = {
+        name = "GFX_uma_condition_small"
+        texturefile = "gfx/interface/GUI/condition_small.png"
+        noOfFrames = 5
+    }
+    progressbartype = {
+		name = "GFX_uma_stamina_Progbar"
+		texturefile1 = "gfx/interface/GUI/political_powar_bar_gauge.png"
+		texturefile2 = "gfx/interface/GUI/political_powar_bar_back_gauge.png"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = { 
+			x = 225
+			y = 23
+		}
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+    SpriteType = {
+        name = "GFX_uma_stamina_flame"
+        texturefile = "gfx/interface/GUI/political_powar_bar_flame.png"
+    }
+    SpriteType = {
+        name = "GFX_uma_odekake_button"
+        texturefile = "gfx/interface/GUI/odekake.png"
+        noOfFrames = 2
+    }
+}

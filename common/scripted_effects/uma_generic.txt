@@ -1,0 +1,286 @@
+#やる気関係のscripted_effect
+uma_condition_karaoke = {#やる気が2上昇した時につかうeffect
+    custom_effect_tooltip = uma_condition_karaoke_tt
+    if = {
+        limit = {
+            check_variable = { uma_condition_factor = 5 }
+        }
+        add_to_variable = { var = uma_condition_factor value = 0 }
+    }
+    else_if = {
+        limit = {
+            check_variable = { uma_condition_factor = 4 }
+        }
+        add_to_variable = { var = uma_condition_factor value = 1 }
+    }
+    else = {
+        add_to_variable = { var = uma_condition_factor value = 2 }
+    }
+
+    if = {
+        limit = {
+             check_variable = { uma_condition_factor = 5 }
+        }
+        swap_ideas = {
+			remove_idea = uma_condition_3
+			add_idea = uma_condition_5
+		}
+    }
+    else_if = {
+        limit = {
+            check_variable = { uma_condition_factor = 4 }
+        }
+        swap_ideas = {
+			remove_idea = uma_condition_2
+			add_idea = uma_condition_4
+		}
+    }
+    else_if = {
+        limit = {
+            check_variable = { uma_condition_factor = 3 }
+        }
+        swap_ideas = {
+			remove_idea = uma_condition_1
+			add_idea = uma_condition_3
+		}
+    }
+}
+uma_condition_sanpo = {#やる気が1上昇した時につかうeffect
+    custom_effect_tooltip = uma_condition_sanpo_tt
+    if = {
+        limit = {
+            check_variable = { uma_condition_factor = 5 }
+        }
+        add_to_variable = { var = uma_condition_factor value = 0 }
+    }
+    else = {
+        add_to_variable = { var = uma_condition_factor value = 1 }
+    }
+    if = {
+        limit = {
+             check_variable = { uma_condition_factor = 5 }
+        }
+        swap_ideas = {
+			remove_idea = uma_condition_4
+			add_idea = uma_condition_5
+		}
+    }
+    else_if = {
+        limit = {
+            check_variable = { uma_condition_factor = 4 }
+        }
+        swap_ideas = {
+			remove_idea = uma_condition_3
+			add_idea = uma_condition_4
+		}
+    }
+    else_if = {
+        limit = {
+            check_variable = { uma_condition_factor = 3 }
+        }
+        swap_ideas = {
+			remove_idea = uma_condition_2
+			add_idea = uma_condition_3
+		}
+    }
+    else_if = {
+        limit = {
+            check_variable = { uma_condition_factor = 2 }
+        }
+        swap_ideas = {
+			remove_idea = uma_condition_1
+			add_idea = uma_condition_2
+		}
+    }
+}
+uma_condition_dawn1 = {#やる気が1減少した時につかうeffect
+    custom_effect_tooltip = uma_condition_dawn1_tt
+    if = {
+        limit = {
+            check_variable = { uma_condition_factor = 1 }
+        }
+        subtract_from_variable = { var = uma_condition_factor value = 0 }
+    }
+    else = {
+        subtract_from_variable = { var = uma_condition_factor value = 1 }
+    }
+    if = {
+        limit = {
+             check_variable = { uma_condition_factor = 4 }
+        }
+        swap_ideas = {
+			remove_idea = uma_condition_5
+			add_idea = uma_condition_4
+		}
+    }
+    else_if = {
+        limit = {
+            check_variable = { uma_condition_factor = 3 }
+        }
+        swap_ideas = {
+			remove_idea = uma_condition_4
+			add_idea = uma_condition_3
+		}
+    }
+    else_if = {
+        limit = {
+            check_variable = { uma_condition_factor = 2 }
+        }
+        swap_ideas = {
+			remove_idea = uma_condition_3
+			add_idea = uma_condition_2
+		}
+    }
+    else_if = {
+        limit = {
+            check_variable = { uma_condition_factor = 1 }
+        }
+        swap_ideas = {
+			remove_idea = uma_condition_2
+			add_idea = uma_condition_1
+		}
+    }
+}
+uma_condition_dawn2 = {#やる気が2減少した時につかうeffect
+    custom_effect_tooltip = uma_condition_dawn2_tt
+    if = {
+        limit = {
+            check_variable = { uma_condition_factor = 2 }
+        }
+        subtract_from_variable = { var = uma_condition_factor value = 1 }
+    }
+    else_if = {
+        limit = {
+            check_variable = { uma_condition_factor = 1 }
+        }
+        subtract_from_variable = { var = uma_condition_factor value = 0 }
+    }
+    else = {
+        subtract_from_variable = { var = uma_condition_factor value = 2 }
+    }
+    if = {
+        limit = {
+             check_variable = { uma_condition_factor = 3 }
+        }
+        swap_ideas = {
+			remove_idea = uma_condition_5
+			add_idea = uma_condition_3
+		}
+    }
+    else_if = {
+        limit = {
+            check_variable = { uma_condition_factor = 2 }
+        }
+        swap_ideas = {
+			remove_idea = uma_condition_4
+			add_idea = uma_condition_2
+		}
+    }
+    else_if = {
+        limit = {
+            check_variable = { uma_condition_factor = 1 }
+        }
+        swap_ideas = {
+			remove_idea = uma_condition_3
+			add_idea = uma_condition_1
+		}
+    }
+}
+uma_condition_great_condition = {#やる気を絶好調にするeffect
+    custom_effect_tooltip = uma_condition_great_tt
+    set_variable = { var = uma_condition_factor value = 5 }
+    if = {
+        limit = {
+            has_idea = uma_condition_1
+        }
+        swap_ideas = {
+			remove_idea = uma_condition_1
+			add_idea = uma_condition_5
+		}
+    }
+    else_if = {
+        limit = {
+            has_idea = uma_condition_2
+        }
+        swap_ideas = {
+			remove_idea = uma_condition_2
+			add_idea = uma_condition_5
+		}
+    }
+    else_if = {
+        limit = {
+            has_idea = uma_condition_3
+        }
+        swap_ideas = {
+			remove_idea = uma_condition_3
+			add_idea = uma_condition_5
+		}
+    }
+    else_if = {
+        limit = {
+            has_idea = uma_condition_4
+        }
+        swap_ideas = {
+			remove_idea = uma_condition_4
+			add_idea = uma_condition_5
+		}
+    }
+    else_if = {
+        limit = {
+            has_idea = uma_condition_5
+        }
+        swap_ideas = {
+			remove_idea = uma_condition_5
+			add_idea = uma_condition_5
+		}
+    }
+}
+uma_condition_bad_condition = {#やる気を絶不調にするeffect
+    custom_effect_tooltip = uma_condition_bad_tt
+    set_variable = { var = uma_condition_factor value = 1 }
+    if = {
+        limit = {
+            has_idea = uma_condition_5
+        }
+        swap_ideas = {
+			remove_idea = uma_condition_5
+			add_idea = uma_condition_1
+		}
+    }
+    else_if = {
+        limit = {
+            has_idea = uma_condition_4
+        }
+        swap_ideas = {
+			remove_idea = uma_condition_4
+			add_idea = uma_condition_1
+		}
+    }
+    else_if = {
+        limit = {
+            has_idea = uma_condition_3
+        }
+        swap_ideas = {
+			remove_idea = uma_condition_3
+			add_idea = uma_condition_1
+		}
+    }
+    else_if = {
+        limit = {
+            has_idea = uma_condition_2
+        }
+        swap_ideas = {
+			remove_idea = uma_condition_2
+			add_idea = uma_condition_1
+		}
+    }
+    else_if = {
+        limit = {
+            has_idea = uma_condition_1
+        }
+        swap_ideas = {
+			remove_idea = uma_condition_1
+			add_idea = uma_condition_1
+		}
+    }
+}

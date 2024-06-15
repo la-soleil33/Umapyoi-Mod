@@ -1,0 +1,15 @@
+guiTypes = {
+	containerWindowType = {
+		name = "uma_condition_top_bar"
+		position = { x = 45 y = -1 }
+		size = { width = 100%% height = 100%% }
+		iconType = {
+			name ="uma_condition_value"
+			spriteType = "GFX_uma_condition_small"
+			position = { x= 925 y = 7 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = uma_condition_tt
+            pdx_tooltip_delayed = uma_condition_effect_desc
+		}
+	}
+}

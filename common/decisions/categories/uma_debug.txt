@@ -1,0 +1,12 @@
+uma_debug_decision = {
+
+    icon = GFX_decision_category_generic
+	priority = 10000
+    allowed = {
+	    always = yes
+	}
+	visible = {
+        always = yes
+	}
+	visible_when_empty = yes
+}

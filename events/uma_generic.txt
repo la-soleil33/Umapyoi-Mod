@@ -1,0 +1,25 @@
+add_namespace = uma_generic
+
+country_event = {
+	id = uma_generic.1
+	title = uma_generic.1.t
+	desc = uma_generic.1.d
+	picture = GFX_report_event_Admire_Japan_1
+	is_triggered_only = yes
+	hidden = yes
+	option = {
+		name = uma_generic.1.a
+		clr_country_flag = odekake_cooltime
+	}
+}	
+country_event = {#頭痛で憂鬱
+	id = uma_generic.2
+	title = uma_generic.2.t
+	desc = uma_generic.2.d
+	picture = GFX_report_event_uma_headache
+	is_triggered_only = yes
+	option = {
+		name = uma_generic.2.a
+		uma_condition_dawn1 = yes
+	}
+}	

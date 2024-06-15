@@ -1,0 +1,45 @@
+ideas = {
+	hidden_ideas = {
+		uma_condition_1 = {#絶不調
+			name = uma_condition_absolute_upset
+			modifier = {
+				political_power_factor = -0.2
+				stability_factor = -0.12
+				army_attack_factor = -0.1
+				army_defence_factor = -0.1
+				army_speed_factor = -0.05
+			}
+		}
+		uma_condition_2 = {#不調
+			name = uma_condition_absolute_upset
+			modifier = {
+				political_power_factor = -0.1
+				stability_factor = -0.06
+				army_attack_factor = -0.05
+				army_defence_factor = -0.05
+				army_speed_factor = -0.025
+			}
+		}
+		uma_condition_3 = {#普通
+			name = uma_condition_absolute_upset
+		}
+		uma_condition_4 = {#好調
+			name = uma_condition_absolute_upset
+			modifier = {
+				political_power_factor = 0.1
+				stability_factor = 0.06
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+			}
+		}
+		uma_condition_5 = {#絶好調
+			name = uma_condition_absolute_upset
+			modifier = {
+				political_power_factor = 0.2
+				stability_factor = 0.12
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+			}
+		}
+	}
+}

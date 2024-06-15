@@ -1,0 +1,81 @@
+scripted_gui = {
+	uma_condition_GUI = {
+		context_type = decision_category
+		window_name = "uma_condition_back"
+		visible = {
+			is_ai = no 
+		}
+		effects = {
+			uma_odekake_click = {
+				custom_effect_tooltip = uma_condition_decisions_tt
+				hidden_effect = {
+					country_event = {
+						id = uma_generic.1
+						days = 180
+					}
+					set_country_flag = odekake_cooltime
+					add_political_power = -100
+					random_list = {
+						50 = {
+							uma_condition_karaoke = yes
+						}
+						50 = {
+							uma_condition_sanpo = yes
+						}
+					}
+				}
+			}
+		}
+		triggers = {
+			uma_odekake_click_enabled = {
+				NOT = { has_country_flag = odekake_cooltime }
+				has_political_power > 100	
+			}
+			uma_leader_portrait1_visible = {
+				is_ai = no
+				tag = KTR
+			}
+			uma_leader_portrait2_visible = {
+				is_ai = no
+				tag = MRC
+			}
+			uma_leader_portrait3_visible = {
+				is_ai = no
+				tag = RDL
+			}
+			uma_leader_portrait4_visible = {
+				is_ai = no
+				tag = RMN
+			}
+			uma_leader_portrait5_visible = {
+				is_ai = no
+				tag = MZS
+			}
+			uma_leader_portrait6_visible = {
+				is_ai = no
+				tag = SRU
+			}
+		}
+		properties = {
+			uma_condition_flame = {
+				frame = uma_condition_factor
+			}
+		}
+	}
+	uma_condition_top_bar_GUI = {
+		context_type = player_context
+		window_name = "uma_condition_top_bar"
+		visible = {
+			is_ai = no 
+		}
+		effects = {
+		}
+		triggers = {
+		}
+		properties = {
+			uma_condition_value = {
+				frame = uma_condition_factor
+			}
+		}
+	}
+}

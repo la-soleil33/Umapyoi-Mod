@@ -89,15 +89,8 @@ set_popularities = {
 	neutrality = 100
 }
 
-create_country_leader = {
-	name = "Symboli_Rudolf"
-	desc = ""
-	picture = "Symboli_Rudolf.dds"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
+
+recruit_character = RDL_Symboli_Rudolf
 
 1984.1.1 = {
 	set_politics = {

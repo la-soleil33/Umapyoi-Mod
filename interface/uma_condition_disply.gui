@@ -1,0 +1,79 @@
+guiTypes = {
+	containerWindowType = {
+		name = "uma_condition_back"
+		size = { width = 500 height = 300 }
+		position = { x = 0 y = -50 }
+		background = {
+		 	name = "Background"
+		 	quadTextureSprite ="GFX_tiled_paper_w_frame_bg"
+		}
+		iconType = {
+			name = "uma_condition_flame"
+			position = {x = 300 y = 55}
+			spriteType = "GFX_uma_condition"
+			pdx_tooltip = uma_condition_tt
+		}
+		iconType = {#カツラギエースの写真
+		name = "uma_leader_portrait1"
+		position = {x = 63 y = 35}
+		spriteType = "GFX_portrait_Katsuragi_Ace"
+		}
+		iconType = {#ミスターシービーの写真
+		name = "uma_leader_portrait2"
+		position = {x = 63 y = 35}
+		spriteType = "GFX_portrait_MrCB"
+		}
+		iconType = {#シンボリルドルフの写真
+		name = "uma_leader_portrait3"
+		position = {x = 63 y = 35}
+		spriteType = "GFX_portrait_Symboli_Rudolf"
+		}
+		iconType = {#メジロラモーヌの写真
+		name = "uma_leader_portrait4"
+		position = {x = 63 y = 35}
+		spriteType = "GFX_portrait_Mejiro_Ramonu"
+		}
+		iconType = {#マルゼンスキーの写真
+		name = "uma_leader_portrait5"
+		position = {x = 63 y = 35}
+		spriteType = "GFX_portrait_Maruzensky"
+		}
+		iconType = {#シリウスシンボリの写真
+		name = "uma_leader_portrait6"
+		position = {x = 63 y = 35}
+		spriteType = "GFX_portrait_Sirius_Symboli"
+		}
+		iconType = {
+			name = "uma_leader_flame"
+			position = { x = 55 y = 22 }
+			spriteType ="GFX_pol_leader_frame"
+		}
+		instantTextboxType = {
+			name = "uma_leader_name"
+			position = { x = 63 y = 249 }
+			font = "hoi_18mbs"
+			text = "[ROOT.GetLeader]"
+			maxWidth = 155
+			maxHeight = 20
+			format = center
+			vertical_alignment = center
+		}
+	#	iconType = {
+	#		name = "uma_stamina_gauge"
+	#		position = { x = 94 y = 35 }
+	#		spriteType ="GFX_uma_stamina_Progbar"
+	#	}
+	#	iconType = {
+	#		name = "uma_stamina_gauge_flame"
+	#		position = { x = 25 y = 35 }
+	#		spriteType ="GFX_uma_stamina_flame"
+	#	}
+		buttonType = {
+			name = "uma_odekake"
+			position = { x = 300 y = 160 }
+			spriteType ="GFX_uma_odekake_button"
+			pdx_tooltip = uma_condition_decisions_tt
+		}
+
+	}
+}

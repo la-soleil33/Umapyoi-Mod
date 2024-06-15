@@ -1,0 +1,26 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_Symboli_Rudolf"
+		texturefile = "gfx/leaders/RDL/Symboli_Rudolf.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Katsuragi_Ace"
+		texturefile = "gfx/leaders/KTR/Katsuragi_Ace.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_MrCB"
+		texturefile = "gfx/leaders/MRC/MrCB.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Maruzensky"
+		texturefile = "gfx/leaders/MRZ/Maruzensky.dds.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Mejiro_Ramonu"
+		texturefile = "gfx/leaders/MRN/Mejiro_Ramonu.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Sirius_Symboli"
+		texturefile = "gfx/leaders/SRU/Sirius_Symboli.dds"
+	}
+}

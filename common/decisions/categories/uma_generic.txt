@@ -1,0 +1,13 @@
+uma_genric_condition = {
+
+    icon = GFX_decision_category_generic
+	priority = 1000
+    allowed = {
+	    always = yes
+	}
+	visible = {
+        always = yes
+	}
+	visible_when_empty = yes
+	scripted_gui = uma_condition_GUI
+}

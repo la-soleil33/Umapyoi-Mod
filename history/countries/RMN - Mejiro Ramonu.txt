@@ -89,15 +89,7 @@ set_popularities = {
 	neutrality = 100
 }
 
-create_country_leader = {
-	name = "Mejiro_Ramonu"
-	desc = ""
-	picture = "Mejiro_Ramonu.dds"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
+recruit_character = RMN_Mejiro_Ramonu
 
 1984.1.1 = {
 	set_politics = {

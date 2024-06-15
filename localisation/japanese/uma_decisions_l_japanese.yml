@@ -1,0 +1,30 @@
+﻿l_japanese:
+ uma_condition_decisions_tt:0 "§Y政治力を100消費してお出かけする。やる気が1から2上昇する。§!\n§Rお出かけから180日の間、再びお出かけすることはできない。§!"
+ uma_condition_dawn:0 "ランダムイベント"
+ uma_condition_decisions_dawn_tt:0 "§Yもしかしたら良くないことが起こるかも……§!"
+ uma_condition_tt:0 "現在のやる気は§Y[Getumacondition]§!である。"
+ uma_condition_effect_desc:0 "[GetconditionEffects]"
+ uma_genric_condition:0 "やる気システム" 
+
+ uma_condition_absolute_upset:0 "ウマ娘のやる気"
+
+ uma_condition_tt_wo:0 "絶不調"
+ uma_condition_tt_ba:0 "不調"
+ uma_condition_tt_no:0 "普通"
+ uma_condition_tt_go:0 "好調"
+ uma_condition_tt_be:0 "絶好調"
+
+ uma_condition_karaoke_tt:0 "§Yやる気が2上がる§!"
+ uma_condition_sanpo_tt:0 "§Yやる気が1上がる§!"
+ uma_condition_dawn1_tt:0 "§Yやる気が1下がる§!"
+ uma_condition_dawn2_tt:0 "§Yやる気が2下がる§!"
+ uma_condition_great_tt:0 "§Yやる気が絶好調になる§!"
+ uma_condition_bad_tt:0 "§Rやる気が絶不調になる§!"
+
+
+
+ uma_condition_tt_worst:0 "§Y絶不調のため以下の効果を得る§!\n政治力: [?-0.20|2=+%]\n安定度: [?-0.12|2=+%]\n師団移動速度: [?-0.05|2=+%] \n師団攻撃力:  [?-0.10|2=+%]\n師団防御力: [?-0.10|2=+%]"
+ uma_condition_tt_bad:0 "§Y不調のため以下の効果を得る§!\n政治力: [?-0.10|2=+%]\n安定度: [?-0.06|2=+%]\n師団移動速度: [?-0.025|2=+%] \n師団攻撃力:  [?-0.05|2=+%]\n師団防御力: [?-0.05|2=+%]"
+ uma_condition_tt_normal:0 "§g現在、やる気による効果は無い§"
+ uma_condition_tt_good:0 "§Y好調のため以下の効果を得る§!\n政治力: [?0.10|2=+%]\n安定度: [?0.06|2=+%]\n師団移動速度: [?0.025|2=+%] \n師団攻撃力:  [?0.05|2=+%]\n師団防御力: [?0.05|2=+%]"
+ uma_condition_tt_best:0 "§Y絶好調のため以下の効果を得る§!\n政治力: [?0.20|2=+%]\n安定度: [?0.12|2=+%]\n師団移動速度: [?0.05|2=+%] \n師団攻撃力:  [?0.10|2=+%]\n師団防御力: [?0.10|2=+%]"

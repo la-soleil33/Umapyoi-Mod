@@ -1,0 +1,46 @@
+defined_text = {
+	name = GetconditionEffects
+	text = {
+		trigger = { has_idea = uma_condition_1 }
+		localization_key = uma_condition_tt_worst
+	}
+	text = {
+		trigger = { has_idea = uma_condition_2 }
+		localization_key = uma_condition_tt_bad
+	}
+	text = {
+		trigger = { has_idea = uma_condition_3 }
+		localization_key = uma_condition_tt_normal
+	}
+	text = {
+		trigger = { has_idea = uma_condition_4 }
+		localization_key = uma_condition_tt_good
+	}
+	text = {
+		trigger = { has_idea = uma_condition_5 }
+		localization_key = uma_condition_tt_best
+	}
+}
+defined_text = {
+	name = Getumacondition
+	text = {
+		trigger = { has_idea = uma_condition_1 }
+		localization_key = uma_condition_tt_wo
+	}
+	text = {
+		trigger = { has_idea = uma_condition_2 }
+		localization_key = uma_condition_tt_ba
+	}
+	text = {
+		trigger = { has_idea = uma_condition_3 }
+		localization_key = uma_condition_tt_no
+	}
+	text = {
+		trigger = { has_idea = uma_condition_4 }
+		localization_key = uma_condition_tt_go
+	}
+	text = {
+		trigger = { has_idea = uma_condition_5 }
+		localization_key = uma_condition_tt_be
+	}
+}

@@ -1,12 +1,132 @@
 guiTypes = {
 	containerWindowType = {
 		name = "uma_condition_top_bar"
-		position = { x = 45 y = -1 }
+		position = { x = 45 y = -2 }
 		size = { width = 100%% height = 100%% }
+		containerWindowType = {
+			name = "uma_status_top_bar"
+			position = { x= 925 y = 5 }
+			size = { width = 100%% height = 100%% }
+			containerWindowType = {
+				name = "uma_status_speed"
+				position = { x= 0 y = 0 }
+				size = { width = 100%% height = 100%% }
+				iconType = {
+					name ="uma_speed_icon"
+					spriteType = "GFX_uma_speed_icon"
+					position = { x= 0 y = 0 }
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = uma_aacondition_tt
+					pdx_tooltip_delayed = uma_aacondition_effect_desc
+				}
+				instantTextboxType = {
+					name = "uma_speed_status"
+					position = { x= -25 y = 3 }
+					font = "hoi_24header"
+					text = uma_speed_status_tt
+					maxWidth = 155
+					maxHeight = 20
+					format = center
+					vertical_alignment = center
+				}
+			}
+			containerWindowType = {
+				name = "uma_status_stamina"
+				position = { x= 80 y = 0 }
+				size = { width = 100%% height = 100%% }
+				iconType = {
+					name ="uma_stamina_icon"
+					spriteType = "GFX_uma_stamina_icon"
+					position = { x= 0 y = 0 }
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = uma_aacondition_tt
+					pdx_tooltip_delayed = uma_aacondition_effect_desc
+				}
+				instantTextboxType = {
+					name = "uma_stamina_status"
+					position = { x= -25 y = 3 }
+					font = "hoi_24header"
+					text = uma_stamina_status_tt
+					maxWidth = 155
+					maxHeight = 20
+					format = center
+					vertical_alignment = center
+				}
+			}
+			containerWindowType = {
+				name = "uma_status_power"
+				position = { x= 160 y = 0 }
+				size = { width = 100%% height = 100%% }
+				iconType = {
+					name ="uma_power_icon"
+					spriteType = "GFX_uma_power_icon"
+					position = { x= 0 y = 0 }
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = uma_aacondition_tt
+					pdx_tooltip_delayed = uma_aacondition_effect_desc
+				}
+				instantTextboxType = {
+					name = "uma_power_status"
+					position = { x= -25 y = 3 }
+					font = "hoi_24header"
+					text = uma_power_status_tt
+					maxWidth = 155
+					maxHeight = 20
+					format = center
+					vertical_alignment = center
+				}
+			}
+			containerWindowType = {
+				name = "uma_status_guts"
+				position = { x= 240 y = 0 }
+				size = { width = 100%% height = 100%% }
+				iconType = {
+					name ="uma_guts_icon"
+					spriteType = "GFX_uma_guts_icon"
+					position = { x= 0 y = 0 }
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = uma_aacondition_tt
+					pdx_tooltip_delayed = uma_aacondition_effect_desc
+				}
+				instantTextboxType = {
+					name = "uma_guts_status"
+					position = { x= -25 y = 3 }
+					font = "hoi_24header"
+					text = uma_guts_status_tt
+					maxWidth = 155
+					maxHeight = 20
+					format = center
+					vertical_alignment = center
+				}
+			}
+			containerWindowType = {
+				name = "uma_status_wisdom"
+				position = { x= 320 y = 0 }
+				size = { width = 100%% height = 100%% }
+				iconType = {
+					name ="uma_wisdom_icon"
+					spriteType = "GFX_uma_wisdom_icon"
+					position = { x= 0 y = 0 }
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = uma_aacondition_tt
+					pdx_tooltip_delayed = uma_aacondition_effect_desc
+				}
+				instantTextboxType = {
+					name = "uma_wisdom_status"
+					position = { x= -25 y = 3 }
+					font = "hoi_24header"
+					text = uma_wisdom_status_tt
+					maxWidth = 155
+					maxHeight = 20
+					format = center
+					vertical_alignment = center
+				}
+			}
+		}
 		iconType = {
 			name ="uma_condition_value"
 			spriteType = "GFX_uma_condition_small"
-			position = { x= 925 y = 7 }
+			position = { x= 1330 y = 7 }
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = uma_condition_tt
             pdx_tooltip_delayed = uma_condition_effect_desc

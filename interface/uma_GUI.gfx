@@ -32,4 +32,25 @@ spriteTypes = {
         texturefile = "gfx/interface/GUI/odekake.png"
         noOfFrames = 2
     }
+
+    SpriteType = {
+        name = "GFX_uma_speed_icon"
+        texturefile = "gfx/interface/GUI/icon_speed.png"
+    }
+    SpriteType = {
+        name = "GFX_uma_stamina_icon"
+        texturefile = "gfx/interface/GUI/icon_stamina.png"
+    }
+    SpriteType = {
+        name = "GFX_uma_power_icon"
+        texturefile = "gfx/interface/GUI/icon_power.png"
+    }
+    SpriteType = {
+        name = "GFX_uma_guts_icon"
+        texturefile = "gfx/interface/GUI/icon_guts.png"
+    }
+    SpriteType = {
+        name = "GFX_uma_wisdom_icon"
+        texturefile = "gfx/interface/GUI/icon_wisdom.png"
+    }
 }

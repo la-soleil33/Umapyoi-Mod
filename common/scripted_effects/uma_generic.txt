@@ -284,3 +284,35 @@ uma_condition_bad_condition = {#やる気を絶不調にするeffect
 		}
     }
 }
+#ステータスの初期化
+uma_status_setting = {#初期化
+    clear_array = gui_status
+    #進捗
+    add_to_array = { gui_status = 0 } #スピード
+    add_to_array = { gui_status = 0 } #スタミナ
+    add_to_array = { gui_status = 0 } #パワー
+    add_to_array = { gui_status = 0 } #根性
+    add_to_array = { gui_status = 0 } #賢さ
+}
+#ステータスを追加するeffect
+uma_status_add = {
+    if = {
+        limit = { has_variable = sta_var has_variable = sta_prog }
+        if = { 
+            limit = { check_variable = { reform_prog > 0 } }
+            custom_effect_tooltip = alb_ec_add_progress_effect_tt
+        }
+        else_if = { 
+            limit = { check_variable = { reform_prog < 0 } }
+            custom_effect_tooltip = alb_ec_sub_progress_effect_tt
+        }
+        #ツールチップ
+        add_to_variable = { gui_status^sta_var = sta_prog }
+        clamp_variable = {
+            var = gui_status^sta_var
+            min = 0
+            max = 1200
+        }
+    }
+    else = { log = "No temp variable!!!" }
+}

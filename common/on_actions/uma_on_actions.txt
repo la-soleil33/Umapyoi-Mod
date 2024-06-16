@@ -17,4 +17,9 @@ on_actions = {
 			}
 		}
 	}
+	on_startup = {
+		effect = {
+			uma_status_setting = yes
+		}
+	}
 }

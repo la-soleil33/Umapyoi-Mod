@@ -31,5 +31,106 @@ uma_debug_decision = {
 			uma_condition_great_condition = yes
 		}
 	}
-	
+	uma_debug_3 = {
+		icon = GFX_decision_generic_umamusume
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			set_temp_variable = { sta_var = 0 }
+			set_temp_variable = { sta_prog = 100 }
+			uma_status_add = yes
+		}
+	}
+	uma_debug_4 = {
+		icon = GFX_decision_generic_umamusume
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			set_temp_variable = { sta_var = 1 }
+			set_temp_variable = { sta_prog = 100 }
+			uma_status_add = yes
+		}
+	}
+	uma_debug_5 = {
+		icon = GFX_decision_generic_umamusume
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			set_temp_variable = { sta_var = 2 }
+			set_temp_variable = { sta_prog = 100 }
+			uma_status_add = yes
+		}
+	}
+	uma_debug_6 = {
+		icon = GFX_decision_generic_umamusume
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			set_temp_variable = { sta_var = 3 }
+			set_temp_variable = { sta_prog = 100 }
+			uma_status_add = yes
+		}
+	}
+	uma_debug_7 = {
+		icon = GFX_decision_generic_umamusume
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			set_temp_variable = { sta_var = 4 }
+			set_temp_variable = { sta_prog = 1200 }
+			uma_status_add = yes
+		}
+	}
+	uma_debug_8 = {
+		icon = GFX_decision_generic_umamusume
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			set_temp_variable = { sta_var = 4 }
+			set_temp_variable = { sta_prog = -1200 }
+			uma_status_add = yes
+		}
+	}
 }

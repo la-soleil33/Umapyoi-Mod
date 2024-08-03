@@ -75,6 +75,582 @@ UMA_genric_condition = {
 		complete_effect = {
 
 		}
+
 	}
-	
+	race_entry_february = {
+		icon = GFX_decision_generic_umamusume
+		available = {
+			NOT = { 
+				has_country_flag = decision_training_flag 
+			} 
+		}
+		visible = { 
+			NOT = { 
+				has_country_flag = decisions_race_flag
+			} 
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			set_country_flag = decisions_race_flag
+		}
+	}
+	race_entry_takamatunomiya = {
+		icon = GFX_decision_generic_umamusume
+		available = {
+			NOT = { 
+				has_country_flag = decision_training_flag 
+			} 
+		}
+		visible = { 
+			NOT = { 
+				has_country_flag = decisions_race_flag
+			} 
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			set_country_flag = decisions_race_flag
+		}
+	}
+	race_entry_oosakahai = {
+		icon = GFX_decision_generic_umamusume
+		available = {
+			NOT = { 
+				has_country_flag = decision_training_flag 
+			} 
+		}
+		visible = { 
+			NOT = { 
+				has_country_flag = decisions_race_flag
+			} 
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			set_country_flag = decisions_race_flag
+		}
+	}
+	race_entry_oukasyo = {
+		icon = GFX_decision_generic_umamusume
+		available = {
+			NOT = { 
+				has_country_flag = decision_training_flag 
+			} 
+		}
+		visible = { 
+			NOT = { 
+				has_country_flag = decisions_race_flag
+			} 
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			set_country_flag = decisions_race_flag
+		}
+	}
+	race_entry_satukisyo = {
+		icon = GFX_decision_generic_umamusume
+		available = {
+			NOT = { 
+				has_country_flag = decision_training_flag 
+			} 
+		}
+		visible = { 
+			NOT = { 
+				has_country_flag = decisions_race_flag
+			} 
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			set_country_flag = decisions_race_flag
+		}
+	}
+	race_entry_tennnousyouharu = {
+		icon = GFX_decision_generic_umamusume
+		available = {
+			NOT = { 
+				has_country_flag = decision_training_flag 
+			} 
+		}
+		visible = { 
+			NOT = { 
+				has_country_flag = decisions_race_flag
+			} 
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			set_country_flag = decisions_race_flag
+		}
+	}
+	race_entry_nhkmairu = {
+		icon = GFX_decision_generic_umamusume
+		available = {
+			NOT = { 
+				has_country_flag = decision_training_flag 
+			} 
+		}
+		visible = { 
+			NOT = { 
+				has_country_flag = decisions_race_flag
+			} 
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			set_country_flag = decisions_race_flag
+		}
+	}
+	race_entry_victoria = {
+		icon = GFX_decision_generic_umamusume
+		available = {
+			NOT = { 
+				has_country_flag = decision_training_flag 
+			} 
+		}
+		visible = { 
+			NOT = { 
+				has_country_flag = decisions_race_flag
+			} 
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			set_country_flag = decisions_race_flag
+		}
+	}
+	race_entry_oaks = {
+		icon = GFX_decision_generic_umamusume
+		available = {
+			NOT = { 
+				has_country_flag = decision_training_flag 
+			} 
+		}
+		visible = { 
+			NOT = { 
+				has_country_flag = decisions_race_flag
+			} 
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			set_country_flag = decisions_race_flag
+		}
+	}
+	race_entry_derby = {
+		icon = GFX_decision_generic_umamusume
+		available = {
+			NOT = { 
+				has_country_flag = decision_training_flag 
+			} 
+		}
+		visible = { 
+			NOT = { 
+				has_country_flag = decisions_race_flag
+			} 
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			set_country_flag = decisions_race_flag
+		}
+	}
+	race_entry_yasuda = {
+		icon = GFX_decision_generic_umamusume
+		available = {
+			NOT = { 
+				has_country_flag = decision_training_flag 
+			} 
+		}
+		visible = { 
+			NOT = { 
+				has_country_flag = decisions_race_flag
+			} 
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			set_country_flag = decisions_race_flag
+		}
+	}
+	race_entry_takaraduka = {
+		icon = GFX_decision_generic_umamusume
+		available = {
+			NOT = { 
+				has_country_flag = decision_training_flag 
+			} 
+		}
+		visible = { 
+			NOT = { 
+				has_country_flag = decisions_race_flag
+			} 
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			set_country_flag = decisions_race_flag
+		}
+	}
+	race_entry_sprinters = {
+		icon = GFX_decision_generic_umamusume
+		available = {
+			NOT = { 
+				has_country_flag = decision_training_flag 
+			} 
+		}
+		visible = { 
+			NOT = { 
+				has_country_flag = decisions_race_flag
+			} 
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			set_country_flag = decisions_race_flag
+		}
+	}
+	race_entry_syuukasyo = {
+		icon = GFX_decision_generic_umamusume
+		available = {
+			NOT = { 
+				has_country_flag = decision_training_flag 
+			} 
+		}
+		visible = { 
+			NOT = { 
+				has_country_flag = decisions_race_flag
+			} 
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			set_country_flag = decisions_race_flag
+		}
+	}
+	race_entry_kikkasyo = {
+		icon = GFX_decision_generic_umamusume
+		available = {
+			NOT = { 
+				has_country_flag = decision_training_flag 
+			} 
+		}
+		visible = { 
+			NOT = { 
+				has_country_flag = decisions_race_flag
+			} 
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			set_country_flag = decisions_race_flag
+		}
+	}
+	race_entry_tennnousyouaki = {
+		icon = GFX_decision_generic_umamusume
+		available = {
+			NOT = { 
+				has_country_flag = decision_training_flag 
+			} 
+		}
+		visible = { 
+			NOT = { 
+				has_country_flag = decisions_race_flag
+			} 
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			set_country_flag = decisions_race_flag
+		}
+	}
+	race_entry_elizabeth = {
+		icon = GFX_decision_generic_umamusume
+		available = {
+			NOT = { 
+				has_country_flag = decision_training_flag 
+			} 
+		}
+		visible = { 
+			NOT = { 
+				has_country_flag = decisions_race_flag
+			} 
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			set_country_flag = decisions_race_flag
+		}
+	}
+	race_entry_mairuchanpion = {
+		icon = GFX_decision_generic_umamusume
+		available = {
+			NOT = { 
+				has_country_flag = decision_training_flag 
+			} 
+		}
+		visible = { 
+			NOT = { 
+				has_country_flag = decisions_race_flag
+			} 
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			set_country_flag = decisions_race_flag
+		}
+	}
+	race_entry_japancup = {
+		icon = GFX_decision_generic_umamusume
+		available = {
+			NOT = { 
+				has_country_flag = decision_training_flag 
+			} 
+		}
+		visible = { 
+			NOT = { 
+				has_country_flag = decisions_race_flag
+			} 
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			set_country_flag = decisions_race_flag
+		}
+	}
+	race_entry_chanpions = {
+		icon = GFX_decision_generic_umamusume
+		available = {
+			NOT = { 
+				has_country_flag = decision_training_flag 
+			} 
+		}
+		visible = { 
+			NOT = { 
+				has_country_flag = decisions_race_flag
+			} 
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			set_country_flag = decisions_race_flag
+		}
+	}
+	race_entry_hannsinnjf = {
+		icon = GFX_decision_generic_umamusume
+		available = {
+			NOT = { 
+				has_country_flag = decision_training_flag 
+			} 
+		}
+		visible = { 
+			NOT = { 
+				has_country_flag = decisions_race_flag
+			} 
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			set_country_flag = decisions_race_flag
+		}
+	}
+	race_entry_asahihaifs = {
+		icon = GFX_decision_generic_umamusume
+		available = {
+			NOT = { 
+				has_country_flag = decision_training_flag 
+			} 
+		}
+		visible = { 
+			NOT = { 
+				has_country_flag = decisions_race_flag
+			} 
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			set_country_flag = decisions_race_flag
+		}
+	}
+	race_entry_arima = {
+		icon = GFX_decision_generic_umamusume
+		available = {
+			NOT = { 
+				has_country_flag = decision_training_flag 
+			} 
+		}
+		visible = { 
+			NOT = { 
+				has_country_flag = decisions_race_flag
+			} 
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			set_country_flag = decisions_race_flag
+		}
+	}
+	race_entry_hopefull = {
+		icon = GFX_decision_generic_umamusume
+		available = {
+			NOT = { 
+				has_country_flag = decision_training_flag 
+			} 
+		}
+		visible = { 
+			NOT = { 
+				has_country_flag = decisions_race_flag
+			} 
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			set_country_flag = decisions_race_flag
+		}
+	}
+	race_entry_gaisennmonn = {
+		icon = GFX_decision_generic_umamusume
+		available = {
+			NOT = { 
+				has_country_flag = decision_training_flag 
+			} 
+		}
+		visible = { 
+			NOT = { 
+				has_country_flag = decisions_race_flag
+			} 
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			set_country_flag = decisions_race_flag
+		}
+	}
+
+	speed_training = {
+		icon = GFX_decision_generic_umamusume
+		visible = { 
+			has_country_flag = decisions_race_flag 
+		}
+		available = { 
+			NOT = { 
+				has_country_flag = decision_training_flag 
+			} 
+		}
+		complete_effect = {
+			set_country_flag = decision_training_flag
+		}
+		days_remove = 14
+        remove_effect = {
+            remove_country_flag = decision_training_flag
+			set_temp_variable = { sta_prog = 100 }
+			uma_status_add = yes
+        }
+	}
+	stamina_training = {
+		icon = GFX_decision_generic_umamusume
+		visible = { 
+			has_country_flag = decisions_race_flag 
+		}
+		available = { 
+			NOT = { 
+				has_country_flag = decision_training_flag 
+			} 
+		}
+		complete_effect = {
+			set_country_flag = decision_training_flag
+		}
+		days_remove = 14
+        remove_effect = {
+            remove_country_flag = decision_training_flag
+			set_temp_variable = { sta_prog = 100 }
+			uma_status_add = yes
+        }
+	}
+	power_training = {
+		icon = GFX_decision_generic_umamusume
+		visible = { 
+			has_country_flag = decisions_race_flag 
+		}
+		available = { 
+			NOT = { 
+				has_country_flag = decision_training_flag 
+			} 
+		}
+		complete_effect = {
+			set_country_flag = decision_training_flag
+		}
+		days_remove = 14
+        remove_effect = {
+            remove_country_flag = decision_training_flag
+			set_temp_variable = { sta_prog = 100 }
+			uma_status_add = yes
+        }
+	}
+	guts_training = {
+		icon = GFX_decision_generic_umamusume
+		visible = { 
+			has_country_flag = decisions_race_flag 
+		}
+		available = { 
+			NOT = { 
+				has_country_flag = decision_training_flag 
+			} 
+		}
+		complete_effect = {
+			set_country_flag = decision_training_flag
+		}
+		days_remove = 14
+        remove_effect = {
+            remove_country_flag = decision_training_flag
+			set_temp_variable = { sta_prog = 100 }
+			uma_status_add = yes
+        }
+	}
+	intelligence_training = {
+		icon = GFX_decision_generic_umamusume
+		visible = { 
+			has_country_flag = decisions_race_flag 
+		}
+		available = { 
+			NOT = { 
+				has_country_flag = decision_training_flag 
+			} 
+		}
+		complete_effect = {
+			set_country_flag = decision_training_flag
+		}
+		days_remove = 14
+        remove_effect = {
+            remove_country_flag = decision_training_flag
+			set_temp_variable = { sta_prog = 1200 }
+			uma_status_add = yes
+        }
+	}
 }

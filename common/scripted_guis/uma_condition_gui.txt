@@ -31,30 +31,6 @@ scripted_gui = {
 				NOT = { has_country_flag = odekake_cooltime }
 				has_political_power > 100	
 			}
-			uma_leader_portrait1_visible = {
-				is_ai = no
-				tag = KTR
-			}
-			uma_leader_portrait2_visible = {
-				is_ai = no
-				tag = MRC
-			}
-			uma_leader_portrait3_visible = {
-				is_ai = no
-				tag = RDL
-			}
-			uma_leader_portrait4_visible = {
-				is_ai = no
-				tag = RMN
-			}
-			uma_leader_portrait5_visible = {
-				is_ai = no
-				tag = MZS
-			}
-			uma_leader_portrait6_visible = {
-				is_ai = no
-				tag = SRU
-			}
 		}
 		properties = {
 			uma_condition_flame = {

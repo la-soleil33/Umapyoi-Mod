@@ -1,0 +1,47 @@
+characters={
+	mr.cb={
+		name=Mr.CB
+		portraits={
+			civilian={
+				large=GFX_portrait_mr.cb_small
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = mr.cb
+			cost = 150
+			available  = {
+			}
+			traits  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+
+	maruzensky={
+		name=Maruzensky
+		portraits={
+			civilian={
+				small=GFX_portrait_maruzensky_small
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = maruzensky
+			cost = 150
+			available  = {
+			}
+			traits  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+}

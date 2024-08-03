@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_mr.cb_small"
+		texturefile = "gfx/interface/ideas/Maruzensky_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_maruzensky_small"
+		texturefile = "gfx/interface/ideas/Maruzensky_small.dds"
+	}
+}
